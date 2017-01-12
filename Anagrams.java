@@ -1,6 +1,6 @@
 public class Anagrams
 {
-    public boolean areAnagrams(String s, String t)
+    public static boolean areAnagrams(String s, String t)
     {
         if (s.length() != t.length() || s == null || t == null) return false;
         
