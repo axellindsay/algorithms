@@ -10,10 +10,7 @@ public class Anagrams
         for (int i = 0; i < s.length(); i++)
         {
             int charValue = s.charAt(i);
-            if (letters[charValue] == 0)
-            {
-                numUniqueChars++;
-            }
+            if (letters[charValue] == 0) numUniqueChars++;
             letters[charValue]++;
         }
         
